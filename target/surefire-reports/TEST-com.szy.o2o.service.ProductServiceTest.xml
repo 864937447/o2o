@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="com.szy.o2o.service.ProductServiceTest" time="4.501" errors="1" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Administrator\workspace\o2o"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Administrator\workspace\o2o"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Administrator\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5495306460017871900.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\Java\jdk1.8.0_131\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:/Java/jre1.8.0_131/bin/server;E:/Java/jre1.8.0_131/bin;E:/Java/jre1.8.0_131/lib/amd64;D:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;E:\Java\jdk1.8.0_131\bin;E:\Java\jdk1.8.0_131\jre\bin;D:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;D:\Program Files\Microsoft SQL Server\100\Tools\Binn\;D:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;D:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;E:\Java\jdk1.8.0_131\bin;E:\Program Files (x86)\MySQL\MySQL Server 5.1\bin;E:\apache-maven-3.5.3\bin;E:\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="E:\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s C:\Users\Administrator\.m2\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="E:\Java\jdk1.8.0_131\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Java\jdk1.8.0_131\jre\lib\resources.jar;E:\Java\jdk1.8.0_131\jre\lib\rt.jar;E:\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;E:\Java\jdk1.8.0_131\jre\lib\jsse.jar;E:\Java\jdk1.8.0_131\jre\lib\jce.jar;E:\Java\jdk1.8.0_131\jre\lib\charsets.jar;E:\Java\jdk1.8.0_131\jre\lib\jfr.jar;E:\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\apache-maven-3.5.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.szy.o2o.service.ProductServiceTest" name="testModifyProduct" time="2.246">
+    <error message="更新商品信息失败:org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`o2o`.`tb_product`, CONSTRAINT `fk_product_procate` FOREIGN KEY (`product_category_id`) REFERENCES `tb_product_category` (`product_category_id`))
+### The error may involve com.szy.o2o.dao.ProductDao.updateProduct-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE tb_product    SET product_name=?,    product_desc=?,    img_addr=?,                last_edit_time=?,             product_category_id=?    WHERE product_id = ?   AND shop_id=?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`o2o`.`tb_product`, CONSTRAINT `fk_product_procate` FOREIGN KEY (`product_category_id`) REFERENCES `tb_product_category` (`product_category_id`))
+; SQL []; Cannot add or update a child row: a foreign key constraint fails (`o2o`.`tb_product`, CONSTRAINT `fk_product_procate` FOREIGN KEY (`product_category_id`) REFERENCES `tb_product_category` (`product_category_id`)); nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`o2o`.`tb_product`, CONSTRAINT `fk_product_procate` FOREIGN KEY (`product_category_id`) REFERENCES `tb_product_category` (`product_category_id`))" type="com.szy.o2o.exceptions.ProductOperationException">com.szy.o2o.exceptions.ProductOperationException: 更新商品信息失败:org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`o2o`.`tb_product`, CONSTRAINT `fk_product_procate` FOREIGN KEY (`product_category_id`) REFERENCES `tb_product_category` (`product_category_id`))
+### The error may involve com.szy.o2o.dao.ProductDao.updateProduct-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE tb_product    SET product_name=?,    product_desc=?,    img_addr=?,                last_edit_time=?,             product_category_id=?    WHERE product_id = ?   AND shop_id=?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`o2o`.`tb_product`, CONSTRAINT `fk_product_procate` FOREIGN KEY (`product_category_id`) REFERENCES `tb_product_category` (`product_category_id`))
+; SQL []; Cannot add or update a child row: a foreign key constraint fails (`o2o`.`tb_product`, CONSTRAINT `fk_product_procate` FOREIGN KEY (`product_category_id`) REFERENCES `tb_product_category` (`product_category_id`)); nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`o2o`.`tb_product`, CONSTRAINT `fk_product_procate` FOREIGN KEY (`product_category_id`) REFERENCES `tb_product_category` (`product_category_id`))
+	at com.szy.o2o.service.impl.ProductServiceImpl.modifyProduct(ProductServiceImpl.java:153)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:333)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:213)
+	at com.sun.proxy.$Proxy31.modifyProduct(Unknown Source)
+	at com.szy.o2o.service.ProductServiceTest.testModifyProduct(ProductServiceTest.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>2018-04-06 18:45:58.227 [main] DEBUG com.szy.o2o.dao.ProductDao.queryProductById - ==&gt;  Preparing: SELECT p.product_id, p.product_name, p.product_desc, p.img_addr, p.normal_price, p.promotion_price, p.priority, p.create_time, p.last_edit_time, p.enable_status, p.product_category_id, p.shop_id, pm.product_img_id, pm.img_addr AS detail_img, pm.img_desc, pm.priority, pm.create_time FROM tb_product p LEFT JOIN tb_product_img pm ON p.product_id = pm.product_id WHERE p.product_id = ? ORDER BY pm.priority DESC 
+2018-04-06 18:45:58.228 [main] DEBUG com.szy.o2o.dao.ProductDao.queryProductById - ==&gt; Parameters: 1(Long)
+2018-04-06 18:45:58.406 [main] DEBUG com.szy.o2o.dao.ProductDao.queryProductById - &lt;==      Total: 1
+2018-04-06 18:45:58.456 [main] DEBUG com.szy.o2o.util.ImageUtil - current relativeAddr is:\upload\item\shop\14\2018040618455859698.jpg
+2018-04-06 18:45:58.456 [main] DEBUG com.szy.o2o.util.ImageUtil - current complete addr is:D:\projectdev\image\\upload\item\shop\14\2018040618455859698.jpg
+2018-04-06 18:45:59.758 [main] DEBUG com.szy.o2o.dao.ProductImgDao.queryProductImgList - ==&gt;  Preparing: SELECT * FROM tb_product_img WHERE product_id = ? 
+2018-04-06 18:45:59.759 [main] DEBUG com.szy.o2o.dao.ProductImgDao.queryProductImgList - ==&gt; Parameters: 1(Long)
+2018-04-06 18:45:59.761 [main] DEBUG com.szy.o2o.dao.ProductImgDao.queryProductImgList - &lt;==      Total: 0
+2018-04-06 18:45:59.762 [main] DEBUG c.s.o.d.ProductImgDao.deleteProductImgByProductId - ==&gt;  Preparing: DELETE FROM tb_product_img WHERE product_id = ? 
+2018-04-06 18:45:59.764 [main] DEBUG c.s.o.d.ProductImgDao.deleteProductImgByProductId - ==&gt; Parameters: 1(Long)
+2018-04-06 18:45:59.766 [main] DEBUG c.s.o.d.ProductImgDao.deleteProductImgByProductId - &lt;==    Updates: 0
+2018-04-06 18:45:59.767 [main] DEBUG com.szy.o2o.util.ImageUtil - current relativeAddr is:\upload\item\shop\14\2018040618455965928.jpg
+2018-04-06 18:45:59.767 [main] DEBUG com.szy.o2o.util.ImageUtil - current complete addr is:D:\projectdev\image\\upload\item\shop\14\2018040618455965928.jpg
+2018-04-06 18:45:59.850 [main] DEBUG com.szy.o2o.util.ImageUtil - current relativeAddr is:\upload\item\shop\14\2018040618455919363.jpg
+2018-04-06 18:45:59.851 [main] DEBUG com.szy.o2o.util.ImageUtil - current complete addr is:D:\projectdev\image\\upload\item\shop\14\2018040618455919363.jpg
+2018-04-06 18:45:59.932 [main] DEBUG c.szy.o2o.dao.ProductImgDao.batchInsertProductImg - ==&gt;  Preparing: INSERT INTO tb_product_img(img_addr,img_desc,priority, create_time,product_id) VALUES ( ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ? ) 
+2018-04-06 18:45:59.933 [main] DEBUG c.szy.o2o.dao.ProductImgDao.batchInsertProductImg - ==&gt; Parameters: \upload\item\shop\14\2018040618455965928.jpg(String), null, null, null, 1(Long), \upload\item\shop\14\2018040618455919363.jpg(String), null, null, null, 1(Long)
+2018-04-06 18:45:59.934 [main] DEBUG c.szy.o2o.dao.ProductImgDao.batchInsertProductImg - &lt;==    Updates: 2
+2018-04-06 18:45:59.936 [main] DEBUG com.szy.o2o.dao.ProductDao.updateProduct - ==&gt;  Preparing: UPDATE tb_product SET product_name=?, product_desc=?, img_addr=?, last_edit_time=?, product_category_id=? WHERE product_id = ? AND shop_id=? 
+2018-04-06 18:45:59.937 [main] DEBUG com.szy.o2o.dao.ProductDao.updateProduct - ==&gt; Parameters: ��ʽ����Ʒ(String), ��ʽ����Ʒ(String), \upload\item\shop\14\2018040618455859698.jpg(String), 2018-04-06 18:45:58.225(Timestamp), 4(Long), 1(Long), 14(Long)
+</system-out>
+    <system-err>���� 06, 2018 6:45:58 ���� org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+��Ϣ: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+���� 06, 2018 6:45:58 ���� org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+��Ϣ: Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@27cf3151, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@127e70c5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@5910de75, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4108fa66, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1f130eaf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7e0aadd0]
+���� 06, 2018 6:46:00 ���� org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+��Ϣ: Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+���� 06, 2018 6:46:00 ���� org.springframework.jdbc.support.SQLErrorCodesFactory &lt;init&gt;
+��Ϣ: SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+</system-err>
+  </testcase>
+  <testcase classname="com.szy.o2o.service.ProductServiceTest" name="testAddProduct" time="2.255">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.szy.o2o.service.ProductServiceTest" name="test" time="0"/>
+</testsuite>

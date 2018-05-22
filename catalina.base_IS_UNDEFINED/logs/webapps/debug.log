@@ -1,0 +1,9 @@
+2018-05-09 10:43:13.707 [main] DEBUG com.szy.o2o.dao.LocalAuthDao.insertLocalAuth - ==>  Preparing: INSERT INTO tb_local_auth(username,pass_word,user_id,create_time,last_edit_time) VALUES (?,?,?,?,?) 
+2018-05-09 10:43:13.737 [main] DEBUG com.szy.o2o.dao.LocalAuthDao.insertLocalAuth - ==> Parameters: testusername(String), testpassword(String), 1(Long), 2018-05-09 10:43:13.391(Timestamp), null
+2018-05-09 10:43:13.774 [main] DEBUG com.szy.o2o.dao.LocalAuthDao.insertLocalAuth - <==    Updates: 1
+2018-05-09 10:43:13.783 [main] DEBUG c.s.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==>  Preparing: SELECT l.local_auth_id, l.username, l.pass_word, l.create_time, l.last_edit_time, p.user_id, p.user_name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.username = ? AND l.pass_word = ? 
+2018-05-09 10:43:13.784 [main] DEBUG c.s.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - ==> Parameters: testusername(String), testpassword(String)
+2018-05-09 10:43:13.793 [main] DEBUG c.s.o.dao.LocalAuthDao.queryLocalByUserNameAndPwd - <==      Total: 1
+2018-05-09 10:43:13.799 [main] DEBUG com.szy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==>  Preparing: SELECT l.local_auth_id, l.username, l.pass_word, l.create_time, l.last_edit_time, p.user_id, p.user_name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_local_auth l LEFT JOIN tb_person_info p ON l.user_id = p.user_id WHERE l.user_id = ? 
+2018-05-09 10:43:13.799 [main] DEBUG com.szy.o2o.dao.LocalAuthDao.queryLocalByUserId - ==> Parameters: 1(Long)
+2018-05-09 10:43:13.801 [main] DEBUG com.szy.o2o.dao.LocalAuthDao.queryLocalByUserId - <==      Total: 1
